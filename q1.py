@@ -18,4 +18,4 @@ result1 = swap("Apple", 10)
 print("Result 1:", result1)  # Expect -1
 
 result2 = swap(9, 17)
-print("Result 2:", result2)  # Expect swapped values and (17, 9)
+print("Result 2:", result2)  # swapped values and (17, 9)
