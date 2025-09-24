@@ -14,7 +14,7 @@ def update_dictionary(dct, key, value):
     return dct
 
 
-# Q3 as below 
+# task2  as below 
 result1 = update_dictionary({}, "name", "Alice")
 print("Result 1:", result1)  # {'name': 'Alice'}
 
