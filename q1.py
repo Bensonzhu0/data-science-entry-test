@@ -13,7 +13,7 @@ def swap(x, y):
     return x, y
 
 
-# Test cases
+# Task2 as below 
 result1 = swap("Apple", 10)
 print("Result 1:", result1)  # Expect -1
 
