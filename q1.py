@@ -5,13 +5,17 @@ def swap(x, y):
     - Return -1 if x and y is not numeric.
     - Print the swapped values if both x and y are numeric.
     """
-    # Check if x and y are numeric
     if not (isinstance(x, (int, float)) and isinstance(y, (int, float))):
         return -1
     
-    # Swap values
     x, y = y, x
-    
-    # Print swapped values
     print("After swapping: x =", x, ", y =", y)
-    return x, y  # Return swapped values in case we need them
+    return x, y
+
+
+# Test cases
+result1 = swap("Apple", 10)
+print("Result 1:", result1)  # Expect -1
+
+result2 = swap(9, 17)
+print("Result 2:", result2)  # Expect swapped values and (17, 9)
